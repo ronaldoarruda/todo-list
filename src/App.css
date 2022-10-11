@@ -1,0 +1,118 @@
+.App {
+  height: 100%;
+  background-color: var(--gray-600);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  width: 100%;
+  background-color: var(--gray-700);
+
+  display: flex;
+  justify-content: center;
+  padding: 72px 0 80px 0; 
+}
+
+.header img {
+  width: 7.875rem;
+  height: auto;
+}
+
+.action {
+  display: flex;
+  justify-content: center;
+  margin-top: -1.687rem ;
+  gap: .5rem;
+}
+
+.action input {
+  width: 40rem;
+  padding: 1rem;
+  border-radius: .5rem;
+  border: 1px solid var(--gray-700);
+  background-color: var(--gray-500);
+  color: white;
+  outline: 0;
+}
+
+.action input:hover {
+  background-color: var(--gray-400);
+}
+
+.action button {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  width: 5.625rem;
+  background-color: var(--blue-dark);
+  border: none;
+  border-radius: .5rem;
+  color: var(--gray-100);
+  cursor: pointer;
+}
+
+.action button:hover {
+  background-color: var(--blue);
+}
+
+.contain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 46rem;
+  margin-top: 64px;
+}
+
+.feedback {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+  margin: 0 1rem 24px 1rem;
+  
+}
+
+.feedback strong {
+  font-size: 0.875rem;
+
+}
+
+.feedback p {
+  font-size: 0.75rem;
+  color: var(--gray-200);
+  background-color: var(--gray-400);
+  height: 19px;
+  width: 25px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  border-radius: 999px;
+}
+
+#finished-of-all {
+  width: auto;
+  padding: 0 .5rem;
+}
+
+.created-tasks {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  color: var(--blue);
+}
+
+.completed-tasks {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  color: var(--purple);
+}
+
+

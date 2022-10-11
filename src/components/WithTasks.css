@@ -1,0 +1,48 @@
+.with-tasks {
+  color: var(--gray-100);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: .75rem;
+  background-color: var(--gray-500);
+  padding: 1rem;
+  border-radius: .5rem;
+  border: 1px solid var(--gray-500);
+  width: 736px;
+  margin-bottom: .75rem;
+}
+
+.with-tasks img {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.with-tasks-completed {
+  color: var(--gray-300);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: .75rem;
+  background-color: var(--gray-500);
+  padding: 1rem;
+  border-radius: .5rem;
+  border: 1px solid var(--gray-500);
+  width: 736px;
+  text-decoration: line-through;
+  margin-bottom: .75rem;
+}
+
+.with-tasks p, .with-tasks-completed p {
+  width: 632px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-tasks {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
